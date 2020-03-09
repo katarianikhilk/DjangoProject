@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, authenticate
-from .forms import SignupForm
+from .forms import SignupForm, PasswordChangeFormNew
 from django.contrib.sites.shortcuts import get_current_site
 from django.utils.encoding import force_bytes, force_text
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
@@ -9,9 +9,10 @@ from django.template.loader import render_to_string
 from .tokens import account_activation_token
 from django.contrib.auth.models import User
 from django.core.mail import EmailMessage
-from django.contrib.auth.forms import PasswordChangeForm
 from django.contrib.auth import update_session_auth_hash
 from django.urls import reverse
+
+
 def signup(request):
     if request.method == 'POST':
         form = SignupForm(request.POST)
@@ -24,18 +25,18 @@ def signup(request):
             message = render_to_string('users/acc_active_email.html', {
                 'user': user,
                 'domain': current_site.domain,
-                'uid':urlsafe_base64_encode(force_bytes(user.pk)),
-                'token':account_activation_token.make_token(user),
+                'uid': urlsafe_base64_encode(force_bytes(user.pk)),
+                'token': account_activation_token.make_token(user),
             })
             to_email = form.cleaned_data.get('email')
             email = EmailMessage(
-                        mail_subject, message, to=[to_email]
+                mail_subject, message, to=[to_email]
             )
             email.send()
             return HttpResponse('Please confirm your email address to complete the registration')
     else:
         form = SignupForm()
-    return render(request, 'users/signup.html', {'form': form})
+    return render(request, 'users/register.html', {'form': form})
 
 
 def activate(request, uidb64, token):
@@ -52,12 +53,11 @@ def activate(request, uidb64, token):
         return HttpResponse('Thank you for your email confirmation. Now you can login your account.')
     else:
         return HttpResponse('Activation link is invalid!')
-    
 
 
 def change_password(request):
     if request.method == 'POST':
-        form = PasswordChangeForm(data=request.POST, user=request.user)
+        form = PasswordChangeFormNew(data=request.POST, user=request.user)
 
         if form.is_valid():
             form.save()
@@ -66,7 +66,7 @@ def change_password(request):
         else:
             return redirect('home')
     else:
-        form = PasswordChangeForm(user=request.user)
+        form = PasswordChangeFormNew(user=request.user)
 
         args = {'form': form}
         return render(request, 'users/change_password.html', args)
