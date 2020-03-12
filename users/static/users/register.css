@@ -1,24 +1,38 @@
 body{
 margin: 0;
 padding: 0;
-background-color: white;
+background-color: black;
 
 
 }
 
-
-@viewport {
-
-  zoom:1.0;
-  width: extend-to-zoom;
+::-webkit-scrollbar{
+  width: 50px;
 }
 
-@-ms-viewport{
-width:extend-to-zoom;
-  zoom:1.0;
+::-webkit-scrollbar-thumb{
+
+background:red;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+.leftdecoration{
+  filter: blur(2px);
+  opacity:0.5;
+  transition: 3s ease-in;
+}
 
 }
 
+@media only screen and (min-width: 800px) {
+
+.leftdecoration{
+
+  transition: 3s ease-in;
+}
+}
 
 
 
@@ -31,7 +45,8 @@ padding: 0;
 width:850px;
 height: auto;
 position: absolute;
-left: 0%
+left: 0%;
+  transition:1s ease-out;
 
 
 
@@ -55,5 +70,6 @@ border-radius:10px ;
   background:none;
   padding: 5px;
   margin: 5px;
-
+  width:150px;
+  color:white;
 }

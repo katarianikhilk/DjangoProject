@@ -123,13 +123,32 @@ top:11%;
 height: 650px;
 width: 480px;
 transition: 1s ease-in;
+  animation: poster-egg 3s ease-out;
 }
 
 .posteregg:hover{
 
-transition: 1s ease-in;
+animation-duration: 0;
+transition: 0.75s ease-out;
 transform: translateX(-10px);
 
+}
+@keyframes poster-egg {
+  0%, 100% {left: 0px}
+  50% {left: -10px}
+
+  0%{
+
+    opacity: 0;
+  }
+  50%{
+
+    opacity: 50;
+  }
+  100%{
+
+    opacity: 100;
+  }
 }
 
 .discount{

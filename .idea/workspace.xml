@@ -2,87 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893e1a89-4979-4196-a37e-50f44349953f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/users/static/users/change_password.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset102x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset112x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset122x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset12x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset132x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset142x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset152x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset162x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset172x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset182x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset192x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset202x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset212x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset222x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset22x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset232x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset242x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset252x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset262x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset272x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset282x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset292x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset302x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset312x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset322x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset32x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset332x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset342x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset352x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset362x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset372x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset382x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset392x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset402x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset412x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset422x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset42x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset432x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset442x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset452x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset462x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset472x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset482x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset492x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset502x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset512x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset522x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset52x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset532x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset542x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset552x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset562x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset572x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset582x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset592x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset62x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset72x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset82x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/images/Asset92x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/password_reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/static/users/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/aboutus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 10@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 11@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 12@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 13@2x Cropped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 13@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 14@2x Cropped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 14@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 15@2x Cropped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 15@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 16@2x Cropped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 16@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 17@2x Cropped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 17@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 18@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 19@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 21@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 22@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 23@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 24@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 25@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 26@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 27@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 28@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 30@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 31@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 32@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 33@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 34@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 35@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 36@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 37@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 38@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 39@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 4@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 6@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 7@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 8@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/Asset 9@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/aboutus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/static/blog/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_confirm_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/change_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/static/users/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/users/static/users/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/static/users/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/users/static/users/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YIT3wAYqrRN5m8onPgdqNbmGCC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -114,14 +118,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/users/templates/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/templates/blog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TestProject\project\blog\templates\blog" />
+      <recent name="D:\TestProject\project\blog\static\blog" />
+      <recent name="D:\TestProject\project\blog\static\blog\images" />
+      <recent name="D:\TestProject\project\project\static\blog" />
       <recent name="D:\TestProject\project\users\templates\users" />
-      <recent name="D:\TestProject\project\users" />
     </key>
   </component>
   <component name="RunManager">
@@ -173,7 +180,16 @@
       <workItem from="1583732190330" duration="1635000" />
       <workItem from="1583733841557" duration="2373000" />
       <workItem from="1583739756673" duration="3153000" />
-      <workItem from="1583770409888" duration="1418000" />
+      <workItem from="1583770409888" duration="3652000" />
+      <workItem from="1583859902494" duration="697000" />
+      <workItem from="1583927047762" duration="1938000" />
+      <workItem from="1583988837278" duration="2276000" />
+      <workItem from="1584019129577" duration="7000" />
+      <workItem from="1584019234599" duration="3668000" />
+      <workItem from="1584022930858" duration="5000" />
+      <workItem from="1584022973732" duration="456000" />
+      <workItem from="1584024745245" duration="3303000" />
+      <workItem from="1584029075213" duration="696000" />
     </task>
     <servers />
   </component>
@@ -189,22 +205,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582629571896" />
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1583771480109">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1584029051986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583771480109" />
-    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1583771480109">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584029051986" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1584029051986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583771480109" />
-    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1583771480109">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584029051986" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1584029051985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583771480109" />
-    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1583771480109">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584029051985" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1584029051986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583771480109" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584029051986" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1582629581586">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
