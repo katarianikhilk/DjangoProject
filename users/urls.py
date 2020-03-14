@@ -4,13 +4,11 @@ from django.urls import path
 from . import views
 from users.forms import MyAuthForm, PasswordResetFormCustom
 
-
-
-
-
 urlpatterns = [
 
-    url(r'^signup/$', views.signup, name='signup'),
+    url(r'^signup/$', views.student_signup, name='signup'),
+    url(r'^signupstore/$', views.store_signup, name='signupstore'),
+
     url(r'^activate/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
         views.activate, name='activate'),
     path('login/', auth_views.LoginView.as_view(template_name='users/login.html', authentication_form=MyAuthForm),

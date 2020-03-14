@@ -1,7 +1,6 @@
-from django import forms
-from django.contrib.auth.models import User
+
 from django.contrib.auth.forms import UserCreationForm, PasswordChangeForm
-from .models import Profile
+from .models import User
 from django import forms
 from django.contrib.auth.forms import AuthenticationForm, PasswordResetForm
 from django.forms.widgets import PasswordInput, TextInput
@@ -26,13 +25,13 @@ class PasswordChangeFormNew(PasswordChangeForm):
 
     def __init__(self, *args, **kwargs):
         super(PasswordChangeFormNew, self).__init__(*args, **kwargs)
-        self.fields['old_password'].widget = forms.TextInput(
+        self.fields['old_password'].widget = forms.PasswordInput(
             attrs={'class': 'form-control', 'placeholder': 'Old Password'})
         self.fields['old_password'].label = False
         self.fields['new_password1'].widget = forms.PasswordInput(
             attrs={'class': 'form-control', 'placeholder': 'New Password'})
         self.fields['new_password1'].label = False
-        self.fields['new_password2'].widget = forms.TextInput(
+        self.fields['new_password2'].widget = forms.PasswordInput(
             attrs={'class': 'form-control', 'placeholder': 'Confirm Password'})
         self.fields['new_password2'].label = False
 
@@ -52,6 +51,8 @@ class MyAuthForm(AuthenticationForm):
 
 class SignupForm(UserCreationForm):
     email = forms.EmailField(widget=forms.TextInput(attrs={'placeholder': 'Email'}))
+    is_student = False
+    is_store_owner = False
     college = forms.CharField(
         max_length=13,
         widget=forms.TextInput(attrs={'placeholder': 'College Name'})
